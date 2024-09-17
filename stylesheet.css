@@ -1,0 +1,168 @@
+* {
+    margin: 0px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+#logo {
+    margin-left: 75px;
+    margin-top: 20px;
+}
+
+#titulo-menusuperior {
+    margin-left: 150px;
+    margin-top: 50px;
+    font-weight: bolder;
+}
+
+#txt-homepage {
+    margin-top: 50px;
+    margin-left: 150px;
+    padding-bottom: 100px;
+    text-align: start;
+}
+
+#menu-superior {
+    background-color: #303030;
+    color: white;
+}
+
+#menu-informacional {
+    background-color: #F9F9F9;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    padding-left: 180px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#number-title {
+    font-weight: bolder;
+}
+
+.icone {
+    margin: 50px 50px 50px 75px;
+
+}
+
+.texto-informativo {
+    display: flex;
+    align-items: center;
+}
+
+#secao-foto {
+    display: grid;
+    grid-auto-flow: column;
+    columns: 2;
+}
+
+#titulofoto {
+    color: black;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-left: 120px;
+    font-weight: bolder;
+    grid-auto-flow: column, 1;
+}
+
+#textofoto {
+    color: black;
+    margin-top: none;
+    margin-bottom: 40px;
+    padding-left: 120px;
+    font-weight: bolder;
+    grid-auto-flow: column, 1;
+}
+
+.coluna-texto {
+    margin-top: 200px;
+    margin-right: 40px;
+}
+
+#foto-sala {
+    margin-top: 90px;
+    margin-bottom: 20px;
+    margin-right: 80px;
+    display: grid;
+    grid-auto-flow: column, 2;
+    columns: auto;
+}
+
+#video {
+    margin: 40px 20px 40px 100px;
+}
+
+
+#titulo-formulario {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 25px;
+    padding: 50px 50px 30px 50px;
+}
+
+#formulario {
+
+    display: grid;
+    place-items: center;
+    align-items: center;
+    background-color: #303030;
+    padding-bottom: 80px;
+    padding-top: 50px;
+}
+
+#formulario-input {
+    display: grid;
+    align-items: center;
+    background-color: #FFFFFF;
+    border: solid, black, 1px;
+    border-radius: 10px;
+    width: 508px;
+    height: 50px;
+    margin-bottom: 30px;
+    font-size: large;
+
+
+}
+
+
+#formulario-input::placeholder {
+    color: rgb(107, 104, 104);
+    font-size: larger;
+    padding-left: 20px;
+}
+
+#formulario-input:hover {
+    border: solid, #C07212, 1px;
+    border-radius: 10px;
+}
+
+.botao {
+
+    border: 1px, solid, #000000;
+    color: white;
+    background-color: #C07212;
+    border-radius: 10px;
+    font-size: large;
+    padding: 12px;
+    margin-left: 160px;
+    margin-top: 30px;
+    width: 200px;
+
+}
+
+.botao:hover {
+    transition: ease-in-out, 0.8s;
+    background-color: white;
+    color: #C07212;
+    cursor: pointer;
+}
+
+#footer {
+
+    background-color: #247BA0;
+    color: white;
+    padding: 15px;
+    display: inline-flexbox;
+    position: relative;
+}
